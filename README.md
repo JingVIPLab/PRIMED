@@ -47,9 +47,13 @@ Ref-AVS/
 └── gt_mask
 ```
 
+### Checkpoint
+
+The checkpoint is available [here](https://drive.google.com/file/d/1Lq2SV5KxmlSTYbNB_Ug3Y_AyBIdPn__U/view?usp=sharing).
+
 ## Modality annotation and audit
 
-We provide the annotated results here. You may download and replace the original metadata.csv in Ref-AVS dataset. If you would like to annotate and audit from scratch, please follow the instructions below.
+We have provided the annotated results [here](https://drive.google.com/file/d/1xHU5qB6h2CtnNZW1JJtx-iasJgueh2-s/view?usp=sharing). You may download and replace the original metadata.csv in Ref-AVS dataset. If you would like to annotate and audit from scratch, please follow the instructions below.
 
 The scripts in [qwen/](qwen/) use Qwen3-Omni-Flash to annotate modality-prior labels from referring expressions and audit them using the prompts from the paper. Both stages use text only.
 
