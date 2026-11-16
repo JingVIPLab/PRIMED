@@ -319,7 +319,7 @@ if __name__ == "__main__":
                         help="How dense prompt features are injected")
     
     # Model components
-    parser.add_argument("--num_compressed_tokens", type=int, default=8,
+    parser.add_argument("--num_compressed_tokens", type=int, default=4,
                         help="Number of compressed visual tokens shared across CBCF stages")
 
     args = parser.parse_args()

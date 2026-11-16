@@ -751,8 +751,8 @@ if __name__ == "__main__":
                         help="Weight for SASA loss")
 
     # Model components
-    parser.add_argument("--num_compressed_tokens", type=int, default=8,
-                        help="Number of compressed visual tokens shared across CBCF stages (default: 8)")
+    parser.add_argument("--num_compressed_tokens", type=int, default=4,
+                        help="Number of compressed visual tokens shared across CBCF stages (default: 4)")
 
     # training
     parser.add_argument("--device", type=str, default="cuda:0" if torch.cuda.is_available() else "cpu")

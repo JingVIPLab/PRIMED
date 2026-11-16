@@ -19,7 +19,7 @@ CLAP is bundled in `CLAP/` and does not require a separate `msclap` installation
 
 ### Pretrained models
 
-Place the pretrained assets in the following directory:
+Place the [pretrained assets](https://drive.google.com/drive/folders/1HvlIvQPYe5b3pD8jVuuHYmvRDD06XPn9?usp=sharing) in the following directory:
 
 ```text
 pretrained/
@@ -49,7 +49,7 @@ Ref-AVS/
 
 ### Checkpoint
 
-The checkpoint is available [here](https://drive.google.com/file/d/1Lq2SV5KxmlSTYbNB_Ug3Y_AyBIdPn__U/view?usp=sharing).
+The checkpoint is available [here](https://drive.google.com/file/d/1oCbGICzLIqPUESIy5uRoeZRS26xZPmlE/view?usp=sharing).
 
 ## Modality annotation and audit
 
